@@ -17,7 +17,6 @@ kops create cluster \
 	--topology=private \
 	--associate-public-ip=false \
 	--bastion=true \
-	--ssh-public-key=mykey.pem \
 	--state s3://kops-lab \
 	--name=mylabs.k8slabs.com \
 	--authorization=rbac \
