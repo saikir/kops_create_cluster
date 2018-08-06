@@ -19,6 +19,6 @@ kops create cluster \
 	--bastion=true \
 	--ssh-public-key=mykey.pem \
 	--state s3://kops-lab \
-	--name=mylabs \
+	--name=mylabs.k8slabs.com \
 	--authorization=rbac \
 	--encrypt-etcd-storage
