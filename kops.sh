@@ -6,7 +6,7 @@ kops create cluster \
 	--master-count=1 \
 	--master-size=t2.micro \
 	--master-zones=ap-south-1b \
-	--master-volume-size=10 \
+	--master-volume-size=8 \
 	--node-count=3 \
 	--node-size=t2.micro \
 	--node-volume-size=10 \
